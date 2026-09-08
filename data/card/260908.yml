@@ -5,7 +5,7 @@ about:
   head: 7749806
   archived: false
   latestVersion: "v3.2.1"
-  collectedAt: 2026-09-08T01:27:46Z
+  collectedAt: 2026-09-08T03:36:26Z
 timeline:
   created: 2011-11-21
   lastCommit: 2026-08-14
@@ -83,7 +83,7 @@ total:
   commit: 1713
 ---
 path: /home/runner/.x-repo/github.com/asciinema/asciinema
-collectedAt: 2026-09-08T01:27:47Z
+collectedAt: 2026-09-08T03:36:28Z
 loc:
   Rust:
     code: 7388
