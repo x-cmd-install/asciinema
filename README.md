@@ -7,7 +7,7 @@ Terminal session recorder, streamer and player 📹
 - **Latest release**: `v3.2.1` (2026-06-16)
 - **Last commit**: 2026-08-14
 - **License**: GPL-3.0
-- **Stars**: 17780 · **Forks**: 1038 · **Open issues**: 365 · **Contributors**: 63
+- **Stars**: 17782 · **Forks**: 1038 · **Open issues**: 365 · **Contributors**: 63
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/asciinema> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T10:20:58Z._
+_Last regenerated: 2026-09-09T03:41:24Z._
