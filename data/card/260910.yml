@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.2.1"
   latestRelease: "v3.2.1"
   latestPrerelease: "v3.0.0-rc.4"
-  collectedAt: 2026-09-10T20:14:18Z
+  collectedAt: 2026-09-10T23:32:28Z
 timeline:
   created: 2011-11-21
   lastCommit: 2026-08-14
@@ -87,7 +87,7 @@ total:
   commit: 1713
 ---
 path: /home/runner/.x-repo/github.com/asciinema/asciinema
-collectedAt: 2026-09-10T20:14:19Z
+collectedAt: 2026-09-10T23:32:30Z
 loc:
   Rust:
     code: 7388
