@@ -4,7 +4,7 @@
 
 Terminal session recorder, streamer and player 📹
 
-![asciinema](https://repo.x-cmd.io/asciinema.svg)
+![asciinema](https://repo.x-cmd.io/asciinema.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,20 @@ x install asciinema
 - **最新版本**: `v3.2.1` (2026-06-16)
 - **最近提交**: 2026-08-14
 - **Release 含资产**: 5 个
-- **发布时间**: 2026-06-16T14:38:15Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [asciinema-aarch64-apple-darwin](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-aarch64-apple-darwin) | 6.5 MiB | `native/darwin/arm64` |
+| [asciinema-aarch64-unknown-linux-gnu](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-aarch64-unknown-linux-gnu) | 6.8 MiB | `native/linux/arm64/glibc` |
+| [asciinema-x86_64-apple-darwin](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-apple-darwin) | 7.1 MiB | `native/darwin/x64` |
+| [asciinema-x86_64-unknown-linux-gnu](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-gnu) | 7.6 MiB | `native/linux/x64/glibc` |
+| [asciinema-x86_64-unknown-linux-musl](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-musl) | 7.8 MiB | `native/linux/x64/musl` |
 
 ## 流行度
 
-- **Star**: 17,789 · **Fork**: 1,039 · **开放 issue**: 365 · **贡献者**: 63
+- **Star**: 17,790 · **Fork**: 1,039 · **开放 issue**: 365 · **贡献者**: 63
 
 ## 累计统计
 
@@ -72,4 +81,4 @@ asciinema 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T03:38:51Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:56:12Z._

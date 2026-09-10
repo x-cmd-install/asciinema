@@ -23,11 +23,20 @@ x install asciinema
 - **Latest**: `v3.2.1` (2026-06-16)
 - **Last commit**: 2026-08-14
 - **Assets in release**: 5
-- **Published**: 2026-06-16T14:38:15Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [asciinema-aarch64-apple-darwin](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-aarch64-apple-darwin) | 6.5 MiB | `native/darwin/arm64` |
+| [asciinema-aarch64-unknown-linux-gnu](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-aarch64-unknown-linux-gnu) | 6.8 MiB | `native/linux/arm64/glibc` |
+| [asciinema-x86_64-apple-darwin](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-apple-darwin) | 7.1 MiB | `native/darwin/x64` |
+| [asciinema-x86_64-unknown-linux-gnu](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-gnu) | 7.6 MiB | `native/linux/x64/glibc` |
+| [asciinema-x86_64-unknown-linux-musl](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-musl) | 7.8 MiB | `native/linux/x64/musl` |
 
 ## Popularity
 
-- **Stars**: 17,789 · **Forks**: 1,039 · **Open issues**: 365 · **Contributors**: 63
+- **Stars**: 17,790 · **Forks**: 1,039 · **Open issues**: 365 · **Contributors**: 63
 
 ## Totals (cumulative)
 
@@ -68,8 +77,8 @@ Lowest-scoring checks:
 Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `asciinema` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/asciinema.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/asciinema.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T03:38:50Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:56:12Z._
