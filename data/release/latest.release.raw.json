@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 7138888,
       "digest": "sha256:b516a6d896844c0ffbc96e0a55afe4cbcc79216abde0fc64fdda4e39bee421ea",
-      "download_count": 2777,
+      "download_count": 2779,
       "created_at": "2026-06-16T14:21:26Z",
       "updated_at": "2026-06-16T14:21:26Z",
       "browser_download_url": "https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-aarch64-unknown-linux-gnu"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 7983848,
       "digest": "sha256:1b405bbda565b33c3c4718de67fedc3535580603c0694b1ff3fb04f363430a20",
-      "download_count": 10114,
+      "download_count": 10144,
       "created_at": "2026-06-16T14:20:21Z",
       "updated_at": "2026-06-16T14:20:22Z",
       "browser_download_url": "https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-gnu"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 8130064,
       "digest": "sha256:bec9781bc8f297a9d3d74ff60205599507f2abba1183578b8b2f22be4c999214",
-      "download_count": 20015,
+      "download_count": 20077,
       "created_at": "2026-06-16T14:21:10Z",
       "updated_at": "2026-06-16T14:21:11Z",
       "browser_download_url": "https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-musl"
