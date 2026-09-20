@@ -4,7 +4,7 @@
 
 Terminal session recorder, streamer and player 📹
 
-![asciinema](https://repo.x-cmd.io/asciinema.svg?lang=zh)
+[![x-cmd/install — asciinema Code Quality Monitoring Repo Card](https://repo.x-cmd.io/asciinema.svg?lang=zh)](https://x-cmd.com/install/asciinema)
 
 ## 安装
 
@@ -48,7 +48,7 @@ x install asciinema
 
 ## 流行度
 
-- **Star**: 17,813 · **Fork**: 1,041 · **开放 issue**: 365 · **贡献者**: 63
+- **Star**: 17,819 · **Fork**: 1,042 · **开放 issue**: 365 · **贡献者**: 63
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install asciinema
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 4 | 0 | 0 | 7 |
-| 90d | 2026-06-20 | 0 | 0 | 5 | 0 | 1 | 7 |
-| last180d | 2026-03-22 | 1 | 1 | 7 | 3 | 2 | 32 |
-| 360d | 2025-09-23 | 4 | 12 | 7 | 9 | 3 | 96 |
-| last720d | 2024-09-28 | 7 | 25 | 7 | 29 | 3 | 346 |
+| 30d | 2026-08-21 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 4 | 0 | 0 | 7 |
+| 90d | 2026-06-22 | 0 | 0 | 5 | 0 | 1 | 7 |
+| last180d | 2026-03-24 | 1 | 1 | 7 | 3 | 2 | 32 |
+| 360d | 2025-09-25 | 4 | 11 | 7 | 9 | 3 | 96 |
+| last720d | 2024-09-30 | 7 | 25 | 7 | 29 | 3 | 346 |
 
 ## Release 资产
 
@@ -84,4 +84,4 @@ asciinema 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T03:45:59Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T03:58:32Z._
