@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,869 · **Forks**: 1,045 · **Open issues**: 366 · **Contributors**: 63
+- **Stars**: 17,873 · **Forks**: 1,045 · **Open issues**: 366 · **Contributors**: 63
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-08-12 | 0 | 0 | 3 | 0 | 1 | 4 |
-| 90d | 2026-07-13 | 0 | 0 | 4 | 0 | 1 | 7 |
-| last180d | 2026-04-14 | 1 | 1 | 7 | 3 | 2 | 32 |
-| 360d | 2025-10-16 | 4 | 10 | 7 | 8 | 4 | 88 |
-| last720d | 2024-10-21 | 7 | 21 | 7 | 27 | 4 | 332 |
+| 30d | 2026-09-12 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-08-13 | 0 | 0 | 3 | 0 | 1 | 0 |
+| 90d | 2026-07-14 | 0 | 0 | 4 | 0 | 1 | 7 |
+| last180d | 2026-04-15 | 1 | 1 | 7 | 3 | 2 | 29 |
+| 360d | 2025-10-17 | 4 | 10 | 7 | 8 | 4 | 83 |
+| last720d | 2024-10-22 | 7 | 21 | 7 | 27 | 4 | 332 |
 
 ## Release assets
 
@@ -84,4 +84,4 @@ Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T04:40:48Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T04:56:08Z._
