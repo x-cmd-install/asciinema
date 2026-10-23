@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,899 · **Forks**: 1,044 · **Open issues**: 366 · **Contributors**: 63
+- **Stars**: 17,902 · **Forks**: 1,044 · **Open issues**: 366 · **Contributors**: 63
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 4 | 0 | 1 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 5 | 0 | 1 | 4 |
-| last180d | 2026-04-25 | 1 | 1 | 7 | 2 | 2 | 29 |
-| 360d | 2025-10-27 | 3 | 5 | 8 | 6 | 4 | 68 |
-| last720d | 2024-11-01 | 7 | 21 | 8 | 26 | 4 | 331 |
+| 30d | 2026-09-23 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 4 | 0 | 1 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 5 | 0 | 1 | 4 |
+| last180d | 2026-04-26 | 1 | 1 | 7 | 2 | 2 | 29 |
+| 360d | 2025-10-28 | 3 | 5 | 8 | 6 | 4 | 68 |
+| last720d | 2024-11-02 | 7 | 21 | 8 | 26 | 4 | 331 |
 
 ## Release assets
 
@@ -75,6 +75,25 @@ Lowest-scoring checks:
 | [asciinema-x86_64-unknown-linux-gnu](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-gnu) | 7.6 MiB | `native/linux/x64/glibc` |
 | [asciinema-x86_64-unknown-linux-musl](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-musl) | 7.8 MiB | `native/linux/x64/musl` |
 
+## Distribution status
+
+Reported by **129** distros on [repology.org](https://repology.org/project/asciinema). **29** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.4.0` | ⚠️ outdated |
+| Debian 14 | `2.4.0` | ⚠️ outdated |
+| Debian 13 | `2.4.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.4.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.4.0` | ⚠️ outdated |
+| Arch | `3.2.1` | ✅ latest |
+| Homebrew | `3.2.1` | ✅ latest |
+| Fedora rawhide | `3.2.0` | ⚠️ outdated |
+| Nix unstable | `3.2.1` | ✅ latest |
+| Void | `3.2.0` | ⚠️ outdated |
+| Alpine edge | `3.2.1` | ✅ latest |
+| openSUSE Tumbleweed | `3.2.1` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `asciinema` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -84,4 +103,4 @@ Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T03:47:08Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T03:50:48Z._
