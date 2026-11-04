@@ -1,25 +1,54 @@
-- repo: manjaro_testing
-  subrepo: extra
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: asciinema
-  binname: asciinema
+  binnames:
+    - asciinema
   visiblename: asciinema
-  version: 2.3.0
-  origversion: 2.3.0-1
+  version: 2.4.0
+  origversion: 2.4.0-1
   status: outdated
-  summary: Record and share terminal sessions
-  licenses:
-    - GPL3
-- repo: manjaro_unstable
-  subrepo: extra
+  maintainers:
+    - gfa@zumbi.com.ar
+    - josue@debian.org
+  categories:
+    - utils
+- repo: parrot
+  subrepo: parrot/main
   srcname: asciinema
+  binnames:
+    - asciinema
+  visiblename: asciinema
+  version: 2.4.0
+  origversion: 2.4.0-1
+  status: outdated
+  maintainers:
+    - gfa@zumbi.com.ar
+    - josue@debian.org
+  categories:
+    - utils
+- repo: nix_stable_25_05
+  srcname: asciinema
+  visiblename: asciinema
+  version: 2.4.0
+  origversion: null
+  status: legacy
+  summary: Terminal session recorder and the best companion of asciinema.org
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-3.0-or-later
+- repo: aosc
+  srcname: app-multimedia/asciinema
   binname: asciinema
   visiblename: asciinema
   version: 3.2.1
-  origversion: 3.2.1-1
+  origversion: null
   status: newest
-  summary: Record and share terminal sessions
-  licenses:
-    - GPL-3.0-only
+  summary: Terminal session recorder, streamer, and player
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
 - repo: aerynos
   srcname: asciinema
   visiblename: asciinema
@@ -68,108 +97,110 @@
     - fabian@affolter-engineering.ch
   licenses:
     - GPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: asciinema
-  binname: asciinema-doc
-  visiblename: asciinema-doc
-  version: 2.2.0
-  origversion: 2.2.0-r3
-  status: outdated
-  summary: Command line recorder for the asciinema.org service (documentation)
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: asciinema
-  binname: asciinema-pyc
-  visiblename: asciinema-pyc
-  version: 2.2.0
-  origversion: 2.2.0-r3
-  status: outdated
-  summary: Precompiled Python bytecode for asciinema
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: asciinema
-  binname: asciinema
-  visiblename: asciinema
-  version: 2.4.0
-  origversion: 2.4.0-r0
-  status: outdated
-  summary: Command line recorder for the asciinema.org service
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: asciinema
-  binname: asciinema-doc
-  visiblename: asciinema-doc
-  version: 2.4.0
-  origversion: 2.4.0-r0
-  status: outdated
-  summary: Command line recorder for the asciinema.org service (documentation)
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: asciinema
-  binname: asciinema-pyc
-  visiblename: asciinema-pyc
-  version: 2.4.0
-  origversion: 2.4.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for asciinema
-  maintainers:
-    - fabian@affolter-engineering.ch
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: asciinema
-  binname: asciinema
-  visiblename: asciinema
-  version: 2.4.0
-  origversion: 2.4.0-r2
-  status: outdated
-  summary: Command line recorder for the asciinema.org service
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: asciinema
-  binname: asciinema-doc
-  visiblename: asciinema-doc
-  version: 2.4.0
-  origversion: 2.4.0-r2
-  status: outdated
-  summary: Command line recorder for the asciinema.org service (documentation)
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - GPL-3.0-or-later
-- repo: deepin_unstable
+- repo: pardus_21
   subrepo: main
   srcname: asciinema
   binnames:
     - asciinema
   visiblename: asciinema
   version: 2.0.2
-  origversion: 2.0.2-1
+  origversion: 2.0.2-2
   status: outdated
   maintainers:
     - josue@debian.org
+  categories:
+    - utils
+- repo: alpine_3_18
+  subrepo: community
+  srcname: asciinema
+  binname: asciinema-doc
+  visiblename: asciinema-doc
+  version: 2.2.0
+  origversion: 2.2.0-r3
+  status: outdated
+  summary: Command line recorder for the asciinema.org service (documentation)
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: asciinema
+  binname: asciinema-pyc
+  visiblename: asciinema-pyc
+  version: 2.2.0
+  origversion: 2.2.0-r3
+  status: outdated
+  summary: Precompiled Python bytecode for asciinema
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: asciinema
+  binname: asciinema
+  visiblename: asciinema
+  version: 2.4.0
+  origversion: 2.4.0-r0
+  status: outdated
+  summary: Command line recorder for the asciinema.org service
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: asciinema
+  binname: asciinema-doc
+  visiblename: asciinema-doc
+  version: 2.4.0
+  origversion: 2.4.0-r0
+  status: outdated
+  summary: Command line recorder for the asciinema.org service (documentation)
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: asciinema
+  binname: asciinema-pyc
+  visiblename: asciinema-pyc
+  version: 2.4.0
+  origversion: 2.4.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for asciinema
+  maintainers:
+    - fabian@affolter-engineering.ch
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: asciinema
+  binname: asciinema
+  visiblename: asciinema
+  version: 2.4.0
+  origversion: 2.4.0-r2
+  status: outdated
+  summary: Command line recorder for the asciinema.org service
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: asciinema
+  binname: asciinema-doc
+  visiblename: asciinema-doc
+  version: 2.4.0
+  origversion: 2.4.0-r2
+  status: outdated
+  summary: Command line recorder for the asciinema.org service (documentation)
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - GPL-3.0-or-later
 - repo: alpine_3_20
   subrepo: community
   srcname: asciinema
@@ -326,6 +357,17 @@
     - achill@achill.org
   licenses:
     - GPL-3.0-or-later
+- repo: arch
+  subrepo: extra
+  srcname: asciinema
+  binname: asciinema
+  visiblename: asciinema
+  version: 3.2.1
+  origversion: 3.2.1-1
+  status: newest
+  summary: Record and share terminal sessions
+  licenses:
+    - GPL-3.0-only
 - repo: alpine_3_24
   subrepo: community
   srcname: asciinema
@@ -462,29 +504,17 @@
     - GPLv3
   categories:
     - Terminals
-- repo: aosc
-  srcname: app-multimedia/asciinema
-  binname: asciinema
-  visiblename: asciinema
-  version: 3.2.1
-  origversion: null
-  status: newest
-  summary: Terminal session recorder, streamer, and player
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
-- repo: arch
-  subrepo: extra
+- repo: nix_stable_24_05
   srcname: asciinema
-  binname: asciinema
   visiblename: asciinema
-  version: 3.2.1
-  origversion: 3.2.1-1
-  status: newest
-  summary: Record and share terminal sessions
+  version: 2.4.0
+  origversion: null
+  status: outdated
+  summary: Terminal session recorder and the best companion of asciinema.org
+  maintainers:
+    - contactmeongithubinstead@proton.me
   licenses:
-    - GPL-3.0-only
+    - GPL-3.0-or-later
 - repo: aur
   srcname: python-asciinema
   binname: python-asciinema
@@ -611,6 +641,17 @@
     - josue@debian.org
   categories:
     - utils
+- repo: deepin_unstable
+  subrepo: main
+  srcname: asciinema
+  binnames:
+    - asciinema
+  visiblename: asciinema
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: outdated
+  maintainers:
+    - josue@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: asciinema
@@ -755,22 +796,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: asciinema
-  binnames:
-    - asciinema
-    - asciinema-debuginfo
-    - asciinema-debugsource
-  visiblename: asciinema
-  version: 3.0.0
-  origversion: 3.0.0-8.fc43
-  status: outdated
-  summary: Terminal session recorder, streamer and player
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: asciinema
   binnames:
@@ -786,8 +811,8 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: release
+- repo: fedora_43
+  subrepo: updates
   srcname: asciinema
   binnames:
     - asciinema
@@ -795,7 +820,7 @@
     - asciinema-debugsource
   visiblename: asciinema
   version: 3.0.0
-  origversion: 3.0.0-5.fc44
+  origversion: 3.0.0-8.fc43
   status: outdated
   summary: Terminal session recorder, streamer and player
   licenses:
@@ -818,6 +843,22 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: asciinema
+  binnames:
+    - asciinema
+    - asciinema-debuginfo
+    - asciinema-debugsource
+  visiblename: asciinema
+  version: 3.0.0
+  origversion: 3.0.0-5.fc44
+  status: outdated
+  summary: Terminal session recorder, streamer and player
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: asciinema
@@ -834,6 +875,17 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
+- repo: nix_stable_24_11
+  srcname: asciinema
+  visiblename: asciinema
+  version: 2.4.0
+  origversion: null
+  status: outdated
+  summary: Terminal session recorder and the best companion of asciinema.org
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-3.0-or-later
 - repo: freebsd
   srcname: textproc/asciinema
   binname: asciinema
@@ -851,7 +903,78 @@
   visiblename: app-misc/asciinema
   version: 3.2.0
   origversion: null
+  status: legacy
+  summary: Terminal session recorder, streamer, and player
+  maintainers:
+    - chutzpah@gentoo.org
+    - mgorny@gentoo.org
+  licenses:
+    - GPL-3+
+    - Apache-2.0
+    - BSD
+    - Boost-1.0
+    - ISC
+    - MIT
+    - Unicode-3.0
+  categories:
+    - app-misc
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: asciinema
+  binnames:
+    - asciinema
+  visiblename: asciinema
+  version: 3.2.1
+  origversion: 3.2.1-2
+  status: newest
+  summary: Terminal session recorder
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - GPLv3
+  categories:
+    - Development/Other
+- repo: openpkg_current
+  srcname: asciinema
+  visiblename: asciinema
+  version: "20160710"
+  origversion: null
+  status: untrusted
+  summary: Terminal Session Recording
+  licenses:
+    - GPL
+  categories:
+    - Terminal
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: asciinema
+  visiblename: asciinema
+  version: 2.2.0
+  origversion: 2.2.0-bp155.1.41
   status: outdated
+  summary: Terminal session recorder
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Networking/Other
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: asciinema
+  visiblename: asciinema
+  version: 2.3.0
+  origversion: 2.3.0-bp156.1.1
+  status: outdated
+  summary: Terminal session recorder
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Networking/Other
+- repo: gentoo
+  srcname: app-misc/asciinema
+  visiblename: app-misc/asciinema
+  version: 3.2.1
+  origversion: null
+  status: newest
   summary: Terminal session recorder, streamer, and player
   maintainers:
     - chutzpah@gentoo.org
@@ -910,30 +1033,6 @@
     - josue@debian.org
   categories:
     - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: asciinema
-  binnames:
-    - asciinema
-  visiblename: asciinema
-  version: 2.4.0
-  origversion: 2.4.0-1
-  status: outdated
-  maintainers:
-    - gfa@zumbi.com.ar
-    - josue@debian.org
-  categories:
-    - utils
-- repo: pypi
-  srcname: asciinema
-  binname: asciinema
-  visiblename: asciinema
-  version: 2.4.0
-  origversion: null
-  status: outdated
-  summary: Terminal session recorder
-  maintainers:
-    - m@ku1ik.com
 - repo: kiss_community
   subrepo: community
   srcname: asciinema
@@ -961,7 +1060,69 @@
   visiblename: app-misc/asciinema
   version: 3.2.0
   origversion: null
-  status: outdated
+  status: legacy
+  summary: Terminal session recorder, streamer, and player
+  maintainers:
+    - chutzpah@gentoo.org
+    - mgorny@gentoo.org
+  licenses:
+    - GPL-3+
+    - Apache-2.0
+    - BSD
+    - Boost-1.0
+    - ISC
+    - MIT
+    - Unicode-3.0
+  categories:
+    - app-misc
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: asciinema
+  binnames:
+    - asciinema
+    - asciinema-debuginfo
+    - asciinema-debugsource
+  visiblename: asciinema
+  version: 3.2.1
+  origversion: 3.2.1-1.4
+  status: newest
+  summary: Terminal session recorder
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Networking/Other
+- repo: opensuse_network_tumbleweed
+  srcname: asciinema
+  binnames:
+    - asciinema
+    - asciinema-debuginfo
+    - asciinema-debugsource
+  visiblename: asciinema
+  version: 3.2.1
+  origversion: 3.2.1-33.11
+  status: newest
+  summary: Terminal session recorder
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Networking/Other
+- repo: parabola
+  subrepo: extra
+  srcname: asciinema
+  binname: asciinema
+  visiblename: asciinema
+  version: 3.2.1
+  origversion: 3.2.1-1
+  status: newest
+  summary: Record and share terminal sessions
+  licenses:
+    - GPL-3.0-only
+- repo: liguros_develop
+  srcname: app-misc/asciinema
+  visiblename: app-misc/asciinema
+  version: 3.2.1
+  origversion: null
+  status: newest
   summary: Terminal session recorder, streamer, and player
   maintainers:
     - chutzpah@gentoo.org
@@ -1016,39 +1177,28 @@
   summary: Record and share terminal sessions
   licenses:
     - GPL3
-- repo: nix_stable_24_05
+- repo: manjaro_testing
+  subrepo: extra
   srcname: asciinema
+  binname: asciinema
   visiblename: asciinema
-  version: 2.4.0
-  origversion: null
+  version: 2.3.0
+  origversion: 2.3.0-1
   status: outdated
-  summary: Terminal session recorder and the best companion of asciinema.org
-  maintainers:
-    - contactmeongithubinstead@proton.me
+  summary: Record and share terminal sessions
   licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_24_11
+    - GPL3
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: asciinema
+  binname: asciinema
   visiblename: asciinema
-  version: 2.4.0
-  origversion: null
-  status: outdated
-  summary: Terminal session recorder and the best companion of asciinema.org
-  maintainers:
-    - fallback-mnt-nix@repology
+  version: 3.2.1
+  origversion: 3.2.1-1
+  status: newest
+  summary: Record and share terminal sessions
   licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_25_05
-  srcname: asciinema
-  visiblename: asciinema
-  version: 2.4.0
-  origversion: null
-  status: legacy
-  summary: Terminal session recorder and the best companion of asciinema.org
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-3.0-or-later
+    - GPL-3.0-only
 - repo: nix_stable_25_05
   srcname: asciinema_3
   visiblename: asciinema
@@ -1108,33 +1258,6 @@
     - elevenaka11@gmail.com
   licenses:
     - GPL-3.0-or-later
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: asciinema
-  binnames:
-    - asciinema
-  visiblename: asciinema
-  version: 2.2.0
-  origversion: 2.2.0-1
-  status: outdated
-  maintainers:
-    - gfa@zumbi.com.ar
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: asciinema
-  binnames:
-    - asciinema
-  visiblename: asciinema
-  version: 2.4.0
-  origversion: 2.4.0-1
-  status: outdated
-  maintainers:
-    - gfa@zumbi.com.ar
-    - josue@debian.org
-  categories:
-    - utils
 - repo: openbsd
   srcname: textproc/asciinema
   binname: asciinema
@@ -1179,140 +1302,6 @@
     - GPLv3
   categories:
     - Unspecified
-- repo: openmandriva_cooker
-  subrepo: main/release
-  srcname: asciinema
-  binnames:
-    - asciinema
-  visiblename: asciinema
-  version: 3.2.1
-  origversion: 3.2.1-2
-  status: newest
-  summary: Terminal session recorder
-  maintainers:
-    - bero@lindev.ch
-  licenses:
-    - GPLv3
-  categories:
-    - Development/Other
-- repo: openpkg_current
-  srcname: asciinema
-  visiblename: asciinema
-  version: "20160710"
-  origversion: null
-  status: untrusted
-  summary: Terminal Session Recording
-  licenses:
-    - GPL
-  categories:
-    - Terminal
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: asciinema
-  visiblename: asciinema
-  version: 2.2.0
-  origversion: 2.2.0-bp155.1.41
-  status: outdated
-  summary: Terminal session recorder
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Productivity/Networking/Other
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: asciinema
-  visiblename: asciinema
-  version: 2.3.0
-  origversion: 2.3.0-bp156.1.1
-  status: outdated
-  summary: Terminal session recorder
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Productivity/Networking/Other
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: asciinema
-  binnames:
-    - asciinema
-    - asciinema-debuginfo
-    - asciinema-debugsource
-  visiblename: asciinema
-  version: 3.2.1
-  origversion: 3.2.1-1.4
-  status: newest
-  summary: Terminal session recorder
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Productivity/Networking/Other
-- repo: opensuse_network_tumbleweed
-  srcname: asciinema
-  binnames:
-    - asciinema
-    - asciinema-debuginfo
-    - asciinema-debugsource
-  visiblename: asciinema
-  version: 3.2.1
-  origversion: 3.2.1-33.11
-  status: newest
-  summary: Terminal session recorder
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Productivity/Networking/Other
-- repo: parabola
-  subrepo: extra
-  srcname: asciinema
-  binname: asciinema
-  visiblename: asciinema
-  version: 3.2.1
-  origversion: 3.2.1-1
-  status: newest
-  summary: Record and share terminal sessions
-  licenses:
-    - GPL-3.0-only
-- repo: pardus_21
-  subrepo: main
-  srcname: asciinema
-  binnames:
-    - asciinema
-  visiblename: asciinema
-  version: 2.0.2
-  origversion: 2.0.2-2
-  status: outdated
-  maintainers:
-    - josue@debian.org
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: asciinema
-  binnames:
-    - asciinema
-  visiblename: asciinema
-  version: 2.4.0
-  origversion: 2.4.0-1
-  status: outdated
-  maintainers:
-    - gfa@zumbi.com.ar
-    - josue@debian.org
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot/main
-  srcname: asciinema
-  binnames:
-    - asciinema
-  visiblename: asciinema
-  version: 2.4.0
-  origversion: 2.4.0-1
-  status: outdated
-  maintainers:
-    - gfa@zumbi.com.ar
-    - josue@debian.org
-  categories:
-    - utils
 - repo: pkgsrc_2026_2
   srcname: misc/py-asciinema
   binname: py313-asciinema
@@ -1338,18 +1327,6 @@
   categories:
     - misc
 - repo: pkgsrc_current
-  srcname: misc/asciinema
-  binname: asciinema
-  visiblename: misc/asciinema
-  version: 3.2.1
-  origversion: null
-  status: newest
-  summary: Terminal session recorder, streamer and player
-  maintainers:
-    - leot@netbsd.org
-  categories:
-    - misc
-- repo: pkgsrc_current
   srcname: misc/py-asciinema
   binname: py314-asciinema
   visiblename: misc/py-asciinema
@@ -1359,6 +1336,18 @@
   summary: Terminal session recorder
   maintainers:
     - pkgsrc-users@netbsd.org
+  categories:
+    - misc
+- repo: pkgsrc_current
+  srcname: misc/asciinema
+  binname: asciinema
+  visiblename: misc/asciinema
+  version: 3.2.1
+  origversion: null
+  status: newest
+  summary: Terminal session recorder, streamer and player
+  maintainers:
+    - leot@netbsd.org
   categories:
     - misc
 - repo: pld
@@ -1390,6 +1379,57 @@
   origversion: 2.0.2-2
   status: outdated
   maintainers:
+    - josue@debian.org
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: asciinema
+  binnames:
+    - asciinema
+  visiblename: asciinema
+  version: 2.4.0
+  origversion: 2.4.0-1
+  status: outdated
+  maintainers:
+    - gfa@zumbi.com.ar
+    - josue@debian.org
+  categories:
+    - utils
+- repo: pypi
+  srcname: asciinema
+  binname: asciinema
+  visiblename: asciinema
+  version: 2.4.0
+  origversion: null
+  status: outdated
+  summary: Terminal session recorder
+  maintainers:
+    - m@ku1ik.com
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: asciinema
+  binnames:
+    - asciinema
+  visiblename: asciinema
+  version: 2.2.0
+  origversion: 2.2.0-1
+  status: outdated
+  maintainers:
+    - gfa@zumbi.com.ar
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: asciinema
+  binnames:
+    - asciinema
+  visiblename: asciinema
+  version: 2.4.0
+  origversion: 2.4.0-1
+  status: outdated
+  maintainers:
+    - gfa@zumbi.com.ar
     - josue@debian.org
   categories:
     - utils
