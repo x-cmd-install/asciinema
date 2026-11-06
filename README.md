@@ -14,12 +14,12 @@ x install asciinema
 
 ## Code insight
 
-Total: **8,778** lines of code across **51** files in the top 5 languages.
+Total: **9,008** lines of code across **51** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 7,388 | 53 | 1,562 | 42 |
-| Css | 690 | 21 | 0 | 1 |
+| Rust | 7,561 | 55 | 1,605 | 42 |
+| Css | 747 | 21 | 0 | 1 |
 | Sh | 339 | 50 | 87 | 1 |
 | Json | 166 | 0 | 0 | 4 |
 | Nix | 99 | 0 | 12 | 3 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.2.1` (2026-06-16)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-11-05
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 17,940 · **Forks**: 1,048 · **Open issues**: 366 · **Contributors**: 63
+- **Stars**: 17,945 · **Forks**: 1,048 · **Open issues**: 366 · **Contributors**: 63
 
 ## Totals (cumulative)
 
-- **Releases**: 26 · **Merged PRs**: 172 · **Open PRs**: 10 · **Closed issues**: 362 · **Open issues**: 4 · **Commits**: 1715
+- **Releases**: 26 · **Merged PRs**: 172 · **Open PRs**: 10 · **Closed issues**: 362 · **Open issues**: 4 · **Commits**: 1717
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 0 | 2 | 0 | 0 | 2 |
-| last60d | 2026-09-06 | 0 | 0 | 3 | 0 | 1 | 2 |
-| 90d | 2026-08-07 | 0 | 0 | 5 | 0 | 1 | 6 |
-| last180d | 2026-05-09 | 1 | 1 | 8 | 2 | 2 | 27 |
-| 360d | 2025-11-10 | 3 | 4 | 9 | 6 | 4 | 70 |
-| last720d | 2024-11-15 | 7 | 21 | 9 | 26 | 4 | 329 |
+| 30d | 2026-10-07 | 0 | 0 | 2 | 0 | 0 | 4 |
+| last60d | 2026-09-07 | 0 | 0 | 3 | 0 | 1 | 4 |
+| 90d | 2026-08-08 | 0 | 0 | 5 | 0 | 1 | 8 |
+| last180d | 2026-05-10 | 1 | 1 | 8 | 2 | 2 | 29 |
+| 360d | 2025-11-11 | 3 | 4 | 9 | 6 | 4 | 72 |
+| last720d | 2024-11-16 | 7 | 21 | 9 | 26 | 4 | 331 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T05:40:45Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T05:38:01Z._
