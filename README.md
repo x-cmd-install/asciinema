@@ -26,12 +26,12 @@ Total: **9,008** lines of code across **51** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.2 / 10**
+Overall score: **3.3 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,947 · **Forks**: 1,048 · **Open issues**: 367 · **Contributors**: 63
+- **Stars**: 17,951 · **Forks**: 1,047 · **Open issues**: 367 · **Contributors**: 63
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 0 | 2 | 0 | 1 | 4 |
-| last60d | 2026-09-10 | 0 | 0 | 3 | 0 | 2 | 4 |
-| 90d | 2026-08-11 | 0 | 0 | 5 | 0 | 2 | 4 |
-| last180d | 2026-05-13 | 1 | 1 | 8 | 2 | 3 | 29 |
-| 360d | 2025-11-14 | 3 | 4 | 9 | 5 | 5 | 68 |
-| last720d | 2024-11-19 | 7 | 21 | 9 | 26 | 5 | 331 |
+| 30d | 2026-10-11 | 0 | 0 | 2 | 0 | 1 | 4 |
+| last60d | 2026-09-11 | 0 | 0 | 3 | 0 | 2 | 4 |
+| 90d | 2026-08-12 | 0 | 0 | 5 | 0 | 2 | 4 |
+| last180d | 2026-05-14 | 1 | 1 | 8 | 2 | 3 | 29 |
+| 360d | 2025-11-15 | 3 | 4 | 9 | 5 | 5 | 68 |
+| last720d | 2024-11-20 | 7 | 21 | 9 | 26 | 5 | 331 |
 
 ## Release assets
 
@@ -75,6 +75,25 @@ Lowest-scoring checks:
 | [asciinema-x86_64-unknown-linux-gnu](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-gnu) | 7.6 MiB | `native/linux/x64/glibc` |
 | [asciinema-x86_64-unknown-linux-musl](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-musl) | 7.8 MiB | `native/linux/x64/musl` |
 
+## Distribution status
+
+Reported by **131** distros on [repology.org](https://repology.org/project/asciinema). **31** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.4.0` | ⚠️ outdated |
+| Debian 14 | `2.4.0` | ⚠️ outdated |
+| Debian 13 | `2.4.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.4.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.4.0` | ⚠️ outdated |
+| Arch | `3.2.1` | ✅ latest |
+| Homebrew | `3.2.1` | ✅ latest |
+| Fedora rawhide | `3.2.0` | ⚠️ outdated |
+| Nix unstable | `3.2.1` | ✅ latest |
+| Void | `3.2.0` | ⚠️ outdated |
+| Alpine edge | `3.2.1` | ✅ latest |
+| openSUSE Tumbleweed | `3.2.1` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `asciinema` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -84,4 +103,4 @@ Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T05:11:12Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T06:26:38Z._
