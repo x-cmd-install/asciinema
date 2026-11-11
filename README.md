@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,951 · **Forks**: 1,047 · **Open issues**: 367 · **Contributors**: 63
+- **Stars**: 17,954 · **Forks**: 1,047 · **Open issues**: 367 · **Contributors**: 63
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 0 | 2 | 0 | 1 | 4 |
-| last60d | 2026-09-11 | 0 | 0 | 3 | 0 | 2 | 4 |
-| 90d | 2026-08-12 | 0 | 0 | 5 | 0 | 2 | 4 |
-| last180d | 2026-05-14 | 1 | 1 | 8 | 2 | 3 | 29 |
-| 360d | 2025-11-15 | 3 | 4 | 9 | 5 | 5 | 68 |
-| last720d | 2024-11-20 | 7 | 21 | 9 | 26 | 5 | 331 |
+| 30d | 2026-10-12 | 0 | 0 | 2 | 0 | 1 | 4 |
+| last60d | 2026-09-12 | 0 | 0 | 3 | 0 | 2 | 4 |
+| 90d | 2026-08-13 | 0 | 0 | 5 | 0 | 2 | 4 |
+| last180d | 2026-05-15 | 1 | 1 | 8 | 2 | 3 | 29 |
+| 360d | 2025-11-16 | 3 | 4 | 9 | 5 | 5 | 68 |
+| last720d | 2024-11-21 | 7 | 21 | 9 | 26 | 5 | 331 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **131** distros on [repology.org](https://repology.org/project/asciinema). **31** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
+Reported by **131** distros on [repology.org](https://repology.org/project/asciinema). **32** are ✅ on the latest upstream release, **92** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T06:26:38Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T05:12:32Z._
