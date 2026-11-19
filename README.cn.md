@@ -14,11 +14,11 @@ x install asciinema
 
 ## 代码洞察
 
-合计: **9,008** 行代码（覆盖前 5 种语言、共 **51** 个文件）。
+合计: **9,035** 行代码（覆盖前 5 种语言、共 **51** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 7,561 | 55 | 1,605 | 42 |
+| Rust | 7,588 | 55 | 1,611 | 42 |
 | Css | 747 | 21 | 0 | 1 |
 | Sh | 339 | 50 | 87 | 1 |
 | Json | 166 | 0 | 0 | 4 |
@@ -26,13 +26,13 @@ x install asciinema
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.3 / 10**
+总评分: **2.8 / 10**
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (3/10) — 4 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 3
 - **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install asciinema
 ## 发布
 
 - **最新版本**: `v3.2.1` (2026-06-16)
-- **最近提交**: 2026-11-05
+- **最近提交**: 2026-11-17
 - **Release 含资产**: 5 个
 
 ## 流行度
 
-- **Star**: 17,975 · **Fork**: 1,047 · **开放 issue**: 367 · **贡献者**: 63
+- **Star**: 17,977 · **Fork**: 1,048 · **开放 issue**: 367 · **贡献者**: 63
 
 ## 累计统计
 
-- **发布数**: 26 · **已合并 PR**: 172 · **开放 PR**: 9 · **已关闭 issue**: 362 · **开放 issue**: 5 · **提交数**: 1717
+- **发布数**: 26 · **已合并 PR**: 172 · **开放 PR**: 9 · **已关闭 issue**: 362 · **开放 issue**: 5 · **提交数**: 1719
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 1 | 0 | 1 | 3 |
-| last60d | 2026-09-18 | 0 | 0 | 2 | 0 | 2 | 4 |
-| 90d | 2026-08-19 | 0 | 0 | 5 | 0 | 2 | 4 |
-| last180d | 2026-05-21 | 1 | 1 | 7 | 2 | 3 | 28 |
-| 360d | 2025-11-22 | 3 | 4 | 8 | 5 | 5 | 67 |
-| last720d | 2024-11-27 | 7 | 21 | 8 | 26 | 5 | 331 |
+| 30d | 2026-10-20 | 0 | 0 | 1 | 0 | 1 | 5 |
+| last60d | 2026-09-20 | 0 | 0 | 2 | 0 | 2 | 6 |
+| 90d | 2026-08-21 | 0 | 0 | 5 | 0 | 2 | 6 |
+| last180d | 2026-05-23 | 1 | 0 | 7 | 1 | 3 | 30 |
+| 360d | 2025-11-24 | 3 | 4 | 8 | 5 | 5 | 69 |
+| last720d | 2024-11-29 | 7 | 21 | 8 | 25 | 5 | 333 |
 
 ## Release 资产
 
@@ -77,7 +77,7 @@ x install asciinema
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/asciinema) 上共有 **132** 个发行版报告此项目。**32** 个 ✅ 已是最新上游版本，**93** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/asciinema) 上共有 **131** 个发行版报告此项目。**32** 个 ✅ 已是最新上游版本，**92** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -103,4 +103,4 @@ asciinema 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T07:02:33Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T06:28:20Z._

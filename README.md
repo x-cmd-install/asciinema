@@ -14,11 +14,11 @@ x install asciinema
 
 ## Code insight
 
-Total: **9,008** lines of code across **51** files in the top 5 languages.
+Total: **9,035** lines of code across **51** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 7,561 | 55 | 1,605 | 42 |
+| Rust | 7,588 | 55 | 1,611 | 42 |
 | Css | 747 | 21 | 0 | 1 |
 | Sh | 339 | 50 | 87 | 1 |
 | Json | 166 | 0 | 0 | 4 |
@@ -26,13 +26,13 @@ Total: **9,008** lines of code across **51** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.3 / 10**
+Overall score: **2.8 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (3/10) — 4 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 3
 - **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.2.1` (2026-06-16)
-- **Last commit**: 2026-11-05
+- **Last commit**: 2026-11-17
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 17,975 · **Forks**: 1,047 · **Open issues**: 367 · **Contributors**: 63
+- **Stars**: 17,977 · **Forks**: 1,048 · **Open issues**: 367 · **Contributors**: 63
 
 ## Totals (cumulative)
 
-- **Releases**: 26 · **Merged PRs**: 172 · **Open PRs**: 9 · **Closed issues**: 362 · **Open issues**: 5 · **Commits**: 1717
+- **Releases**: 26 · **Merged PRs**: 172 · **Open PRs**: 9 · **Closed issues**: 362 · **Open issues**: 5 · **Commits**: 1719
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 1 | 0 | 1 | 3 |
-| last60d | 2026-09-18 | 0 | 0 | 2 | 0 | 2 | 4 |
-| 90d | 2026-08-19 | 0 | 0 | 5 | 0 | 2 | 4 |
-| last180d | 2026-05-21 | 1 | 1 | 7 | 2 | 3 | 28 |
-| 360d | 2025-11-22 | 3 | 4 | 8 | 5 | 5 | 67 |
-| last720d | 2024-11-27 | 7 | 21 | 8 | 26 | 5 | 331 |
+| 30d | 2026-10-20 | 0 | 0 | 1 | 0 | 1 | 5 |
+| last60d | 2026-09-20 | 0 | 0 | 2 | 0 | 2 | 6 |
+| 90d | 2026-08-21 | 0 | 0 | 5 | 0 | 2 | 6 |
+| last180d | 2026-05-23 | 1 | 0 | 7 | 1 | 3 | 30 |
+| 360d | 2025-11-24 | 3 | 4 | 8 | 5 | 5 | 69 |
+| last720d | 2024-11-29 | 7 | 21 | 8 | 25 | 5 | 333 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **132** distros on [repology.org](https://repology.org/project/asciinema). **32** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
+Reported by **131** distros on [repology.org](https://repology.org/project/asciinema). **32** are ✅ on the latest upstream release, **92** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T07:02:32Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T06:28:20Z._
