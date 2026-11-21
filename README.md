@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 1 | 0 | 1 | 5 |
-| last60d | 2026-09-21 | 0 | 0 | 2 | 0 | 2 | 6 |
-| 90d | 2026-08-22 | 0 | 0 | 5 | 0 | 2 | 6 |
-| last180d | 2026-05-24 | 1 | 0 | 7 | 1 | 3 | 30 |
-| 360d | 2025-11-25 | 3 | 4 | 8 | 5 | 5 | 69 |
-| last720d | 2024-11-30 | 7 | 21 | 8 | 25 | 5 | 333 |
+| 30d | 2026-10-22 | 0 | 0 | 1 | 0 | 1 | 5 |
+| last60d | 2026-09-22 | 0 | 0 | 2 | 0 | 2 | 6 |
+| 90d | 2026-08-23 | 0 | 0 | 5 | 0 | 2 | 6 |
+| last180d | 2026-05-25 | 1 | 0 | 7 | 1 | 3 | 30 |
+| 360d | 2025-11-26 | 3 | 4 | 8 | 5 | 5 | 69 |
+| last720d | 2024-12-01 | 7 | 21 | 8 | 25 | 5 | 333 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **131** distros on [repology.org](https://repology.org/project/asciinema). **32** are ✅ on the latest upstream release, **92** are ⚠️ on an older version.
+Reported by **130** distros on [repology.org](https://repology.org/project/asciinema). **32** are ✅ on the latest upstream release, **91** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -103,4 +103,4 @@ Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T06:15:11Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T06:04:30Z._
