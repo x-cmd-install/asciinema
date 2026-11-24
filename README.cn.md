@@ -26,13 +26,13 @@ x install asciinema
 
 ## OpenSSF Scorecard 评分
 
-总评分: **2.8 / 10**
+总评分: **3 / 10**
 
 评分最低的几项:
 
-- **Maintained** (3/10) — 4 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 3
 - **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install asciinema
 
 ## 流行度
 
-- **Star**: 17,982 · **Fork**: 1,048 · **开放 issue**: 367 · **贡献者**: 63
+- **Star**: 17,983 · **Fork**: 1,048 · **开放 issue**: 367 · **贡献者**: 63
 
 ## 累计统计
 
-- **发布数**: 26 · **已合并 PR**: 172 · **开放 PR**: 9 · **已关闭 issue**: 362 · **开放 issue**: 5 · **提交数**: 1719
+- **发布数**: 26 · **已合并 PR**: 172 · **开放 PR**: 8 · **已关闭 issue**: 362 · **开放 issue**: 5 · **提交数**: 1719
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 1 | 0 | 1 | 3 |
-| last60d | 2026-09-24 | 0 | 0 | 2 | 0 | 2 | 6 |
-| 90d | 2026-08-25 | 0 | 0 | 5 | 0 | 2 | 6 |
-| last180d | 2026-05-27 | 1 | 0 | 7 | 1 | 3 | 30 |
-| 360d | 2025-11-28 | 3 | 4 | 8 | 5 | 5 | 69 |
-| last720d | 2024-12-03 | 7 | 21 | 8 | 25 | 5 | 333 |
+| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 1 | 3 |
+| last60d | 2026-09-25 | 0 | 0 | 1 | 0 | 2 | 6 |
+| 90d | 2026-08-26 | 0 | 0 | 4 | 0 | 2 | 6 |
+| last180d | 2026-05-28 | 1 | 0 | 6 | 1 | 3 | 30 |
+| 360d | 2025-11-29 | 3 | 4 | 7 | 5 | 5 | 69 |
+| last720d | 2024-12-04 | 7 | 21 | 7 | 25 | 5 | 333 |
 
 ## Release 资产
 
@@ -103,4 +103,4 @@ asciinema 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T06:24:07Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T08:56:28Z._

@@ -26,13 +26,13 @@ Total: **9,035** lines of code across **51** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **2.8 / 10**
+Overall score: **3 / 10**
 
 Lowest-scoring checks:
 
-- **Maintained** (3/10) — 4 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 3
 - **Code-Review** (0/10) — Found 1/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,982 · **Forks**: 1,048 · **Open issues**: 367 · **Contributors**: 63
+- **Stars**: 17,983 · **Forks**: 1,048 · **Open issues**: 367 · **Contributors**: 63
 
 ## Totals (cumulative)
 
-- **Releases**: 26 · **Merged PRs**: 172 · **Open PRs**: 9 · **Closed issues**: 362 · **Open issues**: 5 · **Commits**: 1719
+- **Releases**: 26 · **Merged PRs**: 172 · **Open PRs**: 8 · **Closed issues**: 362 · **Open issues**: 5 · **Commits**: 1719
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 1 | 0 | 1 | 3 |
-| last60d | 2026-09-24 | 0 | 0 | 2 | 0 | 2 | 6 |
-| 90d | 2026-08-25 | 0 | 0 | 5 | 0 | 2 | 6 |
-| last180d | 2026-05-27 | 1 | 0 | 7 | 1 | 3 | 30 |
-| 360d | 2025-11-28 | 3 | 4 | 8 | 5 | 5 | 69 |
-| last720d | 2024-12-03 | 7 | 21 | 8 | 25 | 5 | 333 |
+| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 1 | 3 |
+| last60d | 2026-09-25 | 0 | 0 | 1 | 0 | 2 | 6 |
+| 90d | 2026-08-26 | 0 | 0 | 4 | 0 | 2 | 6 |
+| last180d | 2026-05-28 | 1 | 0 | 6 | 1 | 3 | 30 |
+| 360d | 2025-11-29 | 3 | 4 | 7 | 5 | 5 | 69 |
+| last720d | 2024-12-04 | 7 | 21 | 7 | 25 | 5 | 333 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T06:24:06Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T08:56:28Z._
