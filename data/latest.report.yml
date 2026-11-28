@@ -2,20 +2,20 @@ about:
   description: "Terminal session recorder, streamer and player 📹"
   license: GPL-3.0
   homepage: https://asciinema.org
-  head: e2c6600
+  head: fcf5de0
   archived: false
   latestVersion: "v3.2.1"
   latestRelease: "v3.2.1"
   latestPrerelease: "v3.0.0-rc.4"
-  collectedAt: 2026-11-27T07:18:23Z
+  collectedAt: 2026-11-28T06:50:24Z
 timeline:
   created: 2011-11-21
-  lastCommit: 2026-11-17
+  lastCommit: 2026-11-27
   lastVersion: 2026-06-16
   lastRelease: 2026-06-16
   lastPrerelease: 2025-05-07
 popularity:
-  star: 17993
+  star: 17998
   watcher: 272
   fork: 1050
   release: 26
@@ -23,76 +23,76 @@ popularity:
   pullRequest: 253
   issue: 367
 language:
-  Rust: 290526
+  Rust: 305301
   Shell: 17360
   HTML: 2402
   Nix: 2199
   Dockerfile: 695
-totalBytes: 313182
+totalBytes: 327957
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 1
-    commit: 3
+    commit: 4
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 1
-    commit: 6
+    commit: 7
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
     openPR: 4
     closedIssue: 0
     openIssue: 2
-    commit: 6
+    commit: 7
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 1
     mergedPR: 0
     openPR: 6
     closedIssue: 1
     openIssue: 3
-    commit: 30
+    commit: 31
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 3
     mergedPR: 4
     openPR: 7
     closedIssue: 5
     openIssue: 5
-    commit: 69
+    commit: 71
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 7
     mergedPR: 21
     openPR: 7
     closedIssue: 25
     openIssue: 5
-    commit: 333
+    commit: 335
 total:
   release: 26
   mergedPR: 172
   openPR: 8
   closedIssue: 362
   openIssue: 5
-  commit: 1719
+  commit: 1721
 ---
 path: /home/runner/.x-repo/github.com/asciinema/asciinema
-collectedAt: 2026-11-27T07:18:24Z
+collectedAt: 2026-11-28T06:50:26Z
 loc:
   Rust:
-    code: 7588
-    comments: 55
-    blanks: 1611
+    code: 7953
+    comments: 54
+    blanks: 1708
     files: 42
   Css:
     code: 747
@@ -140,9 +140,9 @@ loc:
     blanks: 150
     files: 3
 total:
-  code: 9095
-  comments: 765
-  blanks: 1901
+  code: 9460
+  comments: 764
+  blanks: 1998
   files: 58
 ---
 date: "2026-11-23"
@@ -252,4 +252,4 @@ checks:
       - 'Info:   0 out of   4 third-party GitHubAction dependencies pinned'
       - 'Info:   0 out of   2 containerImage dependencies pinned'
 ---
-{"id":340197762,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOACsUns4URwGC","tag_name":"v3.2.1","target_commitish":"develop","name":"v3.2.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-06-16T14:16:23Z","updated_at":"2026-06-16T14:38:15Z","published_at":"2026-06-16T14:38:15Z","assets":[{"id":449290357,"node_id":"RA_kwDOACsUns4ax6B1","name":"asciinema-aarch64-apple-darwin","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":6845888,"digest":"sha256:1f0c76da7855601df93e5dccdf69b7c683b81beff1411e38b3802de1f5fc7a1c","download_count":6071,"created_at":"2026-06-16T14:21:34Z","updated_at":"2026-06-16T14:21:35Z"},{"id":449290064,"node_id":"RA_kwDOACsUns4ax59Q","name":"asciinema-aarch64-unknown-linux-gnu","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":7138888,"digest":"sha256:b516a6d896844c0ffbc96e0a55afe4cbcc79216abde0fc64fdda4e39bee421ea","download_count":7042,"created_at":"2026-06-16T14:21:26Z","updated_at":"2026-06-16T14:21:26Z"},{"id":449290107,"node_id":"RA_kwDOACsUns4ax597","name":"asciinema-x86_64-apple-darwin","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":7411548,"digest":"sha256:1b388af0e1566ab19deea663b0ce64730ad46ade2825fadd43cc88f0bd28140a","download_count":2700,"created_at":"2026-06-16T14:21:29Z","updated_at":"2026-06-16T14:21:30Z"},{"id":449289226,"node_id":"RA_kwDOACsUns4ax5wK","name":"asciinema-x86_64-unknown-linux-gnu","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":7983848,"digest":"sha256:1b405bbda565b33c3c4718de67fedc3535580603c0694b1ff3fb04f363430a20","download_count":22881,"created_at":"2026-06-16T14:20:21Z","updated_at":"2026-06-16T14:20:22Z"},{"id":449289811,"node_id":"RA_kwDOACsUns4ax55T","name":"asciinema-x86_64-unknown-linux-musl","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":8130064,"digest":"sha256:bec9781bc8f297a9d3d74ff60205599507f2abba1183578b8b2f22be4c999214","download_count":90013,"created_at":"2026-06-16T14:21:10Z","updated_at":"2026-06-16T14:21:11Z"}],"body":"This is a small release, mostly improving error handling and formatting.\r\n\r\n* Improved error reporting for server API failures - server-provided error messages are now surfaced, with actionable guidance (e.g. running `asciinema auth`)\r\n* Built release binaries on Ubuntu 22.04 for broader compatibility with older Linux systems (#742)\r\n* Upgraded the virtual terminal (avt) to the latest version\r\n* Upgraded dependencies, including security fixes","reactions":{"total_count":10,"+1":3,"-1":0,"laugh":0,"hooray":2,"confused":0,"heart":2,"rocket":3,"eyes":0}}
+{"id":340197762,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOACsUns4URwGC","tag_name":"v3.2.1","target_commitish":"develop","name":"v3.2.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-06-16T14:16:23Z","updated_at":"2026-06-16T14:38:15Z","published_at":"2026-06-16T14:38:15Z","assets":[{"id":449290357,"node_id":"RA_kwDOACsUns4ax6B1","name":"asciinema-aarch64-apple-darwin","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":6845888,"digest":"sha256:1f0c76da7855601df93e5dccdf69b7c683b81beff1411e38b3802de1f5fc7a1c","download_count":6100,"created_at":"2026-06-16T14:21:34Z","updated_at":"2026-06-16T14:21:35Z"},{"id":449290064,"node_id":"RA_kwDOACsUns4ax59Q","name":"asciinema-aarch64-unknown-linux-gnu","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":7138888,"digest":"sha256:b516a6d896844c0ffbc96e0a55afe4cbcc79216abde0fc64fdda4e39bee421ea","download_count":7110,"created_at":"2026-06-16T14:21:26Z","updated_at":"2026-06-16T14:21:26Z"},{"id":449290107,"node_id":"RA_kwDOACsUns4ax597","name":"asciinema-x86_64-apple-darwin","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":7411548,"digest":"sha256:1b388af0e1566ab19deea663b0ce64730ad46ade2825fadd43cc88f0bd28140a","download_count":2716,"created_at":"2026-06-16T14:21:29Z","updated_at":"2026-06-16T14:21:30Z"},{"id":449289226,"node_id":"RA_kwDOACsUns4ax5wK","name":"asciinema-x86_64-unknown-linux-gnu","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":7983848,"digest":"sha256:1b405bbda565b33c3c4718de67fedc3535580603c0694b1ff3fb04f363430a20","download_count":23011,"created_at":"2026-06-16T14:20:21Z","updated_at":"2026-06-16T14:20:22Z"},{"id":449289811,"node_id":"RA_kwDOACsUns4ax55T","name":"asciinema-x86_64-unknown-linux-musl","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":8130064,"digest":"sha256:bec9781bc8f297a9d3d74ff60205599507f2abba1183578b8b2f22be4c999214","download_count":90737,"created_at":"2026-06-16T14:21:10Z","updated_at":"2026-06-16T14:21:11Z"}],"body":"This is a small release, mostly improving error handling and formatting.\r\n\r\n* Improved error reporting for server API failures - server-provided error messages are now surfaced, with actionable guidance (e.g. running `asciinema auth`)\r\n* Built release binaries on Ubuntu 22.04 for broader compatibility with older Linux systems (#742)\r\n* Upgraded the virtual terminal (avt) to the latest version\r\n* Upgraded dependencies, including security fixes","reactions":{"total_count":10,"+1":3,"-1":0,"laugh":0,"hooray":2,"confused":0,"heart":2,"rocket":3,"eyes":0}}
