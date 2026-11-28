@@ -14,11 +14,11 @@ x install asciinema
 
 ## Code insight
 
-Total: **9,035** lines of code across **51** files in the top 5 languages.
+Total: **9,400** lines of code across **51** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 7,588 | 55 | 1,611 | 42 |
+| Rust | 7,953 | 54 | 1,708 | 42 |
 | Css | 747 | 21 | 0 | 1 |
 | Sh | 339 | 50 | 87 | 1 |
 | Json | 166 | 0 | 0 | 4 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.2.1` (2026-06-16)
-- **Last commit**: 2026-11-17
+- **Last commit**: 2026-11-27
 - **Assets in release**: 5
 
 ## Popularity
 
-- **Stars**: 17,993 · **Forks**: 1,050 · **Open issues**: 367 · **Contributors**: 63
+- **Stars**: 17,998 · **Forks**: 1,050 · **Open issues**: 367 · **Contributors**: 63
 
 ## Totals (cumulative)
 
-- **Releases**: 26 · **Merged PRs**: 172 · **Open PRs**: 8 · **Closed issues**: 362 · **Open issues**: 5 · **Commits**: 1719
+- **Releases**: 26 · **Merged PRs**: 172 · **Open PRs**: 8 · **Closed issues**: 362 · **Open issues**: 5 · **Commits**: 1721
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 0 | 0 | 0 | 1 | 3 |
-| last60d | 2026-09-28 | 0 | 0 | 1 | 0 | 1 | 6 |
-| 90d | 2026-08-29 | 0 | 0 | 4 | 0 | 2 | 6 |
-| last180d | 2026-05-31 | 1 | 0 | 6 | 1 | 3 | 30 |
-| 360d | 2025-12-02 | 3 | 4 | 7 | 5 | 5 | 69 |
-| last720d | 2024-12-07 | 7 | 21 | 7 | 25 | 5 | 333 |
+| 30d | 2026-10-29 | 0 | 0 | 0 | 0 | 1 | 4 |
+| last60d | 2026-09-29 | 0 | 0 | 1 | 0 | 1 | 7 |
+| 90d | 2026-08-30 | 0 | 0 | 4 | 0 | 2 | 7 |
+| last180d | 2026-06-01 | 1 | 0 | 6 | 1 | 3 | 31 |
+| 360d | 2025-12-03 | 3 | 4 | 7 | 5 | 5 | 71 |
+| last720d | 2024-12-08 | 7 | 21 | 7 | 25 | 5 | 335 |
 
 ## Release assets
 
@@ -75,25 +75,6 @@ Lowest-scoring checks:
 | [asciinema-x86_64-unknown-linux-gnu](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-gnu) | 7.6 MiB | `native/linux/x64/glibc` |
 | [asciinema-x86_64-unknown-linux-musl](https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-x86_64-unknown-linux-musl) | 7.8 MiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **129** distros on [repology.org](https://repology.org/project/asciinema). **32** are ✅ on the latest upstream release, **91** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.4.0` | ⚠️ outdated |
-| Debian 14 | `2.4.0` | ⚠️ outdated |
-| Debian 13 | `2.4.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.4.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.4.0` | ⚠️ outdated |
-| Arch | `3.2.1` | ✅ latest |
-| Homebrew | `3.2.1` | ✅ latest |
-| Fedora rawhide | `3.2.0` | ⚠️ outdated |
-| Nix unstable | `3.2.1` | ✅ latest |
-| Void | `3.2.0` | ⚠️ outdated |
-| Alpine edge | `3.2.1` | ✅ latest |
-| openSUSE Tumbleweed | `3.2.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `asciinema` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -103,4 +84,4 @@ Install metadata for asciinema lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T07:18:31Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T06:50:46Z._
